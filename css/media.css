@@ -1,0 +1,151 @@
+@media (max-width: 960px){
+  .header__menu{
+    margin-right: 20px;
+  }
+}
+@media (max-width: 929px){
+  .works__items{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .works__item{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 915px){
+  .footer__item + .footer__item{
+    margin-left: 20px;
+  }
+  .footer__inner{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 885px){
+  .benefits__item + .benefits__item{
+    margin-left: 10px;
+  }
+  .benefits__inner{
+    display: block;
+  }
+  .benefits__item{
+    max-width: 100%;
+  }
+  .benefits__item img{
+    width: 15px;
+    height: 15;
+  }
+  .benefits__item + .benefits__item{
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  .benefits__text{
+    margin-bottom: 10px;
+  }
+  .benefits__title{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 865px){
+  .footer__inner{
+    display: block;
+  }
+  .footer__item + .footer__item{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .footer__item{
+    max-width: 100%;
+  }
+  .twitter1{
+    margin-bottom: 0;
+  }
+  .twitter2{
+    margin-bottom: 5px;
+  }
+  .footer__title{
+    margin-bottom: 10px;
+  }
+  .footer__inner p{
+    margin-bottom: 10px;
+  }
+  .item3-info{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px){
+  .burger{
+    width: 40px;
+  }
+  .burger__item{
+    background-color: #e8603c;
+    height: 5px;
+    border-radius: 25px 25px 25px 25px;
+  }
+  .burger__item + .burger__item{
+    margin-top: 5px;
+  }
+  .header__inner.sticky .burger{
+    width: 25px;
+  }
+  .header__inner.sticky .burger__item{
+    height: 3px;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .header__inner.sticky .burger__item + .burger__item{
+   margin-top: 4px;
+  }
+  .header__inner.sticky:hover .burger{
+  width: 40px;
+  }
+  .header__inner.sticky:hover .burger__item{
+  height: 5px;
+  }
+  .header__inner.sticky:hover .burger__item + .burger__item{
+    margin-top: 5px;
+  }
+  .header__inner.sticky .header__menu ul{
+    visibility: hidden;
+  }
+  .header__inner.sticky:hover .header__menu ul{
+    visibility: visible
+  }
+  .header__menu ul{
+    padding-left: 0;
+    display: none;
+    position: fixed;
+    top: 78px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 40px 39px -23px rgba(0,0,0,0.3);
+    border-bottom: 5px solid #e8663c;
+  }
+  .header__menu li + li{
+    margin-left: 0;
+  }
+  .header__menu li{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .header__menu li a{
+    width: 100%;
+  }
+}
+@media (max-width: 500px){
+  .slider__info{
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+
+
+@media (min-width: 600px){
+  .header__menu ul{
+    display: block !important;
+  }
+}
